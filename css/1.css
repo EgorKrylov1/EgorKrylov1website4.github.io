@@ -1,0 +1,59 @@
+body {
+    width: 60%;
+    margin: 0 auto;
+    
+    font-size: 25px;
+    font-style: oblique;
+    text-decoration: none;
+    
+    box-shadow: 0 -200px 100px -120px crimson inset;
+    animation: background 3s infinite alternate;
+    background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    transform: translate3d(0, 0, 0);
+    font-size:25px;
+    
+}
+.gg {
+   text-align:center;
+   display:flex;
+   align-items:center
+}
+.i1 {
+    width: 443px;
+    height:250px; 
+    padding: 0 10%;
+}
+.i2 {
+    width: 30%;
+    height: 45%;
+    padding: 0 10%;
+}
+.main {
+    width: 800px;
+    margin: 0 auto;
+   
+    background-size: cover;
+    padding-bottom: 40%;
+    background: rgba(255,255,255,0.999);
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+a {
+    color: #8d8176;
+    text-decoration: none !important;
+    border: none !important;
+}
+
